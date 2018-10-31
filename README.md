@@ -1,4 +1,4 @@
-# SV-JS-Stand-alone-Javascript-scripts
+# Stand alone Javascript scripts
 Incredibly small stand alone Javascript scripts
 
 At one point in time I was obsessed with creating some of the most popular Javascript webpage features in pure javascript and
