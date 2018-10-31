@@ -1,0 +1,72 @@
+body{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	background:#535353 url(../images/page.png) top left repeat-x;
+}
+
+#toplinks ,#toplinks a{
+	color:#a3a3a3;
+	font-size:15px;
+	text-decoration:none;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container{
+	border:1px solid #5c5c5c;
+	text-align:left;
+	height:345px;
+	width:700px;
+	padding:0px;
+	background:url(../images/showbg.png) top left no-repeat;
+}
+#slideshow_wrap{
+	height:345px;
+	width:700px;
+	margin:30px auto 0px auto;
+	padding:0px;
+	position:relative;
+	text-align:left;
+	overflow:hidden;
+}
+#container ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#container ul li,#container ul li img{
+	padding:0px;
+	margin:0px;
+	height:345px;
+	width:700px;
+}
+#container ul li {
+	overflow:hidden;
+	}
+	
+#control_wrap{
+	position:absolute;	
+	width:190px;
+}
+#control_wrap div{
+	float:left;
+	margin:0px;
+	margin-left:14px;
+	padding:0px;
+	display:block;
+	width:20px !important;
+	height:20px !important;
+	cursor:pointer;
+}
+#control_wrap #pause{
+	background:url(../images/pause.png) top left no-repeat;
+	}
+#control_wrap #play{
+	background:url(../images/play.png) top left no-repeat;
+	}
+#control_wrap #next{
+	background:url(../images/next.png) top left no-repeat;
+	}
+#control_wrap #prev{
+	background:url(../images/prev.png) top left no-repeat;
+	}

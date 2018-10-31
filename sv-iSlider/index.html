@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>SV iSlider Example</title>
+	<link rel="stylesheet" href="css/sv_iSlider.css" />
+	<script type="text/javascript" src="scripts/sv_iSlider.min.js"></script>
+	<style type="text/css">
+	
+	</style>	
+</head>
+<body style="text-align:center;">
+	<div id="islide_wrapper">
+		<div id="islide_contentbox">
+			<ul>
+				<li>
+					<img src="images/slide1.png" alt="" />
+				</li>
+				<li>
+					<img src="images/slide2.png" alt="" />
+				</li>
+				<li>
+					<img src="images/slide3.png" alt="" />
+				</li>
+				<li>
+					<img src="images/slide4.png" alt="" />
+				</li>
+			</ul>		
+		</div>
+		<div id="islide_navbox">		
+			<ul>
+				<li>
+					<img src="images/slide1_th.png" alt="" />
+				</li>
+				<li>
+					<img src="images/slide2_th.png" alt="" />
+				</li>
+				<li>
+					<img src="images/slide3_th.png" alt="" />
+				</li>
+				<li>
+					<img src="images/slide4_th.png" alt="" />
+				</li>
+			</ul>		
+		</div>
+		<div id="islide_arrow"></div>
+	</div>
+	<img src="images/shadow.png" class="shadow" alt=""/>
+	<script type="text/javascript">
+		window.onload=function(){
+			options={
+				id:'islide_wrapper',
+				id2:'islide_arrow',
+				delay:4000,
+				duration:300,
+				steps:10
+			}
+			sv_iSlider.init(options);		
+		};	
+	</script>
+</body>
+</html>

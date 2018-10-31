@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>SV Scroller Menu Script</title>
+	<script type="text/javascript" src="./scripts/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="./scripts/jquery.plugins.min.js"></script>
+	<script type="text/javascript" src="./scripts/roller_compressed.js"></script>
+	
+	<script type="text/javascript" src="./scripts/sv_initialize.js"></script>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" href="./scroll.css" />
+	
+</head>
+<body>
+	<div class="header">
+		<h1>
+			<span class="big_text">
+				SV Scroller Menu
+			</span>
+			<span class="small_text">
+				scrolling background menu script
+			</span>
+		</h1>
+	</div>
+	
+
+	
+	<div class="heading">
+		<h2>> Scrolling Backround Menu Script</h2>
+	</div>
+	<div class="block">
+		<div class="top">	
+			<p>
+			This script will allow you to create a fancy scrolling transition between portions
+			of a sprite as a user hovers over a menu item. It is completely stand alone requiring 
+			absolutely no third party frameworks or libraries. And is less then 1kb minified.
+			</p>
+			<h3>Examples:</h3>
+		<br/>
+		<h4>Vertical Scroller Menu</h4>
+		<div id="nav_container4">
+			<ul>
+				<li>				
+					<a href="#">Home</a>
+				</li>
+				<li>				
+					<a href="#">About</a>
+				</li>
+				<li>				
+					<a href="#">Portfolio</a>
+				</li>
+				<li>				
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<br/><br/>
+		<div class="clear"></div>
+		<br/>
+		<h4>Horizontal Scroller Menu</h4>
+			
+			<div id="nav_container5">
+			<ul>
+				<li>				
+					<a id="nav_home" href="#">Home</a>
+				</li>
+				<li>				
+					<a id="nav_about" href="#">About</a>
+				</li>
+				<li>				
+					<a id="nav_port" href="#">Portfolio</a>
+				</li>
+				<li>				
+					<a id="nav_con" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div id="nav_container">
+			<ul>
+				<li>				
+					<a href="#">Home</a>
+				</li>
+				<li>				
+					<a href="#">About</a>
+				</li>
+				<li>				
+					<a href="#">Portfolio</a>
+				</li>
+				<li>				
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+		
+			
+			
+		<div class="clear"></div>
+			<br/><br/>
+			<h3>The Code:</h3>
+			<pre><code>
+roller.init('nav_container','h',NewX,NewY,Speed,Steps);
+roller.init('nav_container2','v',NewX,NewY,Speed,Steps);
+			</code></pre>
+		
+			
+			<br/><br/>
+			<p>
+			Must be called on window.onload and not when the dom loaded, it must be initialized after
+			the images have loaded.
+			</p>			
+		</div>	
+		<div class="bottom"></div>	
+	</div>
+	
+	
+	
+
+</body>
+</html>

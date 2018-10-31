@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="sv.simpleSlider.js"></script>
+	<script type="text/javascript" src="fonts/cufon-yui.js"></script>
+	<script type="text/javascript" src="fonts/ChunkFive_400.font.js"></script>
+	<script type="text/javascript">
+	window.onload=function(){
+		Cufon.replace('h2',{
+			color: '-linear-gradient(#DBD9C1,0.3=#DBD9C1,0.6=#919191,#919191)',
+			textShadow: '2px 2px rgba(0, 0, 0, 0.7)'
+		});
+		
+		var opts = {
+					slideshow	: 'slideshow',
+					next 		: 'slideshow_next',
+					prev		: 'slideshow_prev',
+					controls	: 'slideshow_controls',
+					delay		: 2000,
+					speed		: 1200,
+					transition	: 'sideslide',
+					width		: 600,
+					height	 	: 260
+				};
+		var t = svSimpleSlider.init(opts);
+		
+		
+		opts = {
+					slideshow	: 'slideshow2',
+					next 		: 'slideshow_next2',
+					prev		: 'slideshow_prev2',
+					controls	: 'slideshow_controls2',
+					delay		: 2000,
+					speed		: 800,
+					transition	: 'fade',
+					width		: 600,
+					height	 	: 260
+				};
+		var t2 = svSimpleSlider.init(opts);
+		
+		
+		
+	}
+	</script>
+</head>
+<body>
+	<div id="page_wrap">
+	<div id="page_wrap_inner">
+	<h2>
+		svSimpleSlider
+	</h2>
+	<span id="subtitle" class="subtitle">
+		simple stand-alone javascript slider
+	</span>
+	<div class="spacer"></div>
+		<div class="slideshow_wrap">
+			<div class ="slideshow_inner">
+				<ul id ="slideshow">
+					<li class='first'>
+					</li>
+					<li class='second'>
+					</li>
+					<li class='first'>
+					</li>
+					<li class='second'>
+					</li>
+					<li class='last'>
+					</li>
+				</ul>		
+			</div>
+		</div>
+		<div id="slideshow_next"></div>
+		<div id="slideshow_prev"></div>
+		<div id="slideshow_controls_wrap">
+			<ul id = "slideshow_controls">
+				<li class=" active "></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		
+		
+		<div class="spacer"></div>
+		
+		
+		<div class="slideshow_wrap">
+			<div class ="slideshow_inner">
+				<ul id ="slideshow2">
+					<li class='first'>
+					</li>
+					<li class='second'>
+					</li>
+					<li class='first'>
+					</li>
+					<li class='second'>
+					</li>
+					<li class='last'>
+					</li>
+				</ul>		
+			</div>
+		</div>
+		<div id="slideshow_next2"></div>
+		<div id="slideshow_prev2"></div>
+		<div id="slideshow_controls_wrap2">
+			<ul id = "slideshow_controls2">
+				<li class=" active "></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		
+		
+		
+	</div>	
+	</div>	
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>SV Extend Menu Script</title>
+	<script type="text/javascript" src="./scripts/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="./scripts/jquery.plugins.min.js"></script>
+	<script type="text/javascript" src="./scripts/extend_compressed.js"></script>
+	
+	<script type="text/javascript" src="./scripts/sv_initialize.js"></script>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" href="./extend.css" />
+	
+	
+</head>
+<body>
+	<div class="header">
+		<h1>
+			<span class="big_text">
+				SV Extend Menu
+			</span>
+			<span class="small_text">
+				extending menu script
+			</span>
+		</h1>
+	</div>
+	
+
+	
+	<div class="heading">
+		<h2>> Scrolling Backround Menu Script</h2>
+	</div>
+	<div class="block">
+		<div class="top">	
+			<p>
+			This script will allow you to create a fancy menu effect where as an item extends in length as a user hovers over a menu item. 
+			It is completely stand alone requiring absolutely no third party frameworks or libraries. And is less then 1kb minified.
+			</p>
+			<h3>Examples:</h3>
+		<br/>
+		
+		<h4>Horizontal Extend Menu</h4>
+			
+		
+		<div id="nav_container">
+			<ul>
+				<li>				
+					<a href="#">Home</a>
+				</li>
+				<li>				
+					<a href="#">About</a>
+				</li>
+				<li>				
+					<a href="#">Portfolio</a>
+				</li>
+				<li>				
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div id="nav_container2">
+			<ul>
+				<li>
+					<img style="float:left;" src="images/left.gif" alt=""/>
+					<a style="float:left;" href="#1" title="Home">
+					<img style="display:inline" src="images/arrow.gif" alt=""/>
+					Home
+					</a>
+					<img style="float:left;" src="images/right.gif" alt=""/>
+					<div style="clear:both;height:0px;"></div>
+				</li>
+				<li>
+					<img style="float:left;" src="images/left.gif" alt=""/>
+					<a style="float:left;" href="#1" title="Home">
+					<img style="display:inline" src="images/arrow.gif" alt=""/>
+					About
+					</a>
+					<img style="float:left;" src="images/right.gif" alt=""/>
+					<div style="clear:both;height:0px;"></div>
+				</li>
+				<li>
+					<img style="float:left;" src="images/left.gif" alt=""/>
+					<a style="float:left;" href="#1" title="Home">
+					<img style="display:inline" src="images/arrow.gif" alt=""/>
+					Portfolio
+					</a>
+					<img style="float:left;" src="images/right.gif" alt=""/>
+					<div style="clear:both;height:0px;"></div>
+				</li>
+				<li>
+					<img style="float:left;" src="images/left.gif" alt=""/>
+					<a style="float:left;" href="#1" title="Home">
+					<img style="display:inline" src="images/arrow.gif" alt=""/>
+					Contact
+					</a>
+					<img style="float:left;" src="images/right.gif" alt=""/>
+					<div style="clear:both;height:0px;"></div>
+				</li>
+			</ul>
+		</div>
+			
+		<div class="clear"></div>
+			<br/><br/>
+			<h3>The Code:</h3>
+			<pre><code>
+extend.init('nav_container','h',NewX,NewY,Speed,Steps);
+extend.init('nav_container2','v',NewX,NewY,Speed,Steps);
+			</code></pre>
+		
+			
+			<br/><br/>
+			<p>
+			Must be called on window.onload and not when the dom loaded, it must be initialized after
+			the images have loaded.
+			</p>			
+		</div>	
+		<div class="bottom"></div>	
+	</div>
+	
+	
+	
+
+</body>
+</html>

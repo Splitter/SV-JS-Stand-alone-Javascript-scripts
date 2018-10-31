@@ -1,0 +1,142 @@
+
+/* =-=-=-=-=-=-=-[Nav 1]-=-=-=-=-=-=-=- */
+	#nav_container{
+	width:145px;
+	margin-left:140px !important;
+	margin-top:10px;
+	float:left;
+	}
+	#nav_container li{
+	padding:0px;
+	margin-bottom:1px;
+	}
+	#nav_container{
+	margin-left:30px;
+	}
+	#nav_container a:link,#nav_container a:visited,#nav_container a:active{
+	width:145px;
+	background: url(images/bg3.gif)  -200px 0px repeat-x;
+	height:30px;
+	padding-top:5px;
+	padding-left:50px;
+	border-bottom:1px solid #777;
+	display:block;
+	text-decoration:none;
+	text-align:left;
+	font-weight:bold;
+	color:#333;
+	}
+	#nav_container a:hover{
+	color:#000;
+	background: url(images/bg3.gif)  0px 0px repeat-x;
+	}
+	
+	
+		
+
+/* =-=-=-=-=-=-=-[Nav 4]-=-=-=-=-=-=-=- */	
+	#nav_container4{
+	width:788px;
+	margin-left:0px;
+	margin-top:0px;
+	float:left;
+	}
+	#nav_container4 li{
+	padding:0px;
+	margin-bottom:1px;
+	float:left;width:140px;
+	border-right:1px solid #ccc;
+	border-left: 1px solid #888;
+	}
+	#nav_container4 a:link,#nav_container4 a:visited,#nav_container4 a:active{
+	width:145px;
+	background: url(images/bg5.gif) 0px -70px repeat-x;
+	font-weight:bold;
+	height:30px;
+	padding-top:5px;
+	display:block;
+	text-align:center;
+	border-bottom:1px solid #777;
+	text-decoration:none;
+	color:#333;
+	}
+	#nav_container4 a:hover{
+	color:#000;
+	background: url(images/bg5.gif)  0px 0px repeat-x;
+	}
+		
+
+/* =-=-=-=-=-=-=-[Nav 5]-=-=-=-=-=-=-=- */
+	#nav_container5{
+	width:145px;
+	margin-left:20px !important;
+	margin-top:10px;
+	float:left;
+	}
+	#nav_container5 li{
+	padding:0px;
+	margin-bottom:1px;
+	}
+	#nav_container5{
+	margin-left:30px;
+	}
+	#nav_container5 a:link,#nav_container5 a:visited,#nav_container5 a:active{
+	width:145px;
+	height:30px;
+	padding-top:5px;
+	padding-left:50px;
+	border-bottom:1px solid #777;
+	display:block;
+	text-decoration:none;
+	text-align:left;
+	font-weight:bold;
+	color:#333;
+	text-indent:-300px;
+	overflow:hidden;
+	}
+	#nav_container5 a:hover{
+	color:#000;
+	}
+	
+	#nav_home{
+	background-image: url(images/bg7.gif);
+	background-position: 0px 0px;
+	}
+	#nav_home:hover{
+	background-image: url(images/bg7.gif);
+	background-position: 0px -45px;
+	}
+		
+	
+	#nav_about{
+	background-image: url(images/bg8.gif);
+	background-position: 0px 0px;
+	}
+	#nav_about:hover{
+	background-image: url(images/bg8.gif);
+	background-position: 0px -45px;
+	}
+		
+	
+	#nav_port{
+	background-image: url(images/bg9.gif);
+	background-position: 0px 0px;
+	}
+	#nav_port:hover{
+	background-image: url(images/bg9.gif);
+	background-position: 0px -45px;
+	}
+		
+	
+	
+	#nav_con{
+	background-image: url(images/bg10.gif);
+	background-position: 0px 0px;
+	}
+	#nav_con:hover{
+	background-image: url(images/bg10.gif);
+	background-position: 0px -45px;
+	}
+		
+		
+		

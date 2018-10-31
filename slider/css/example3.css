@@ -1,0 +1,156 @@
+
+body{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	background:#535353 url(../images/page.png) top left repeat-x;
+
+}
+
+#toplinks ,#toplinks a{
+	color:#a3a3a3;
+	font-size:15px;
+	text-decoration:none;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#wrapper{
+	width:600px;
+	height:395px;
+	margin:0px auto 10px auto;
+	border:1px solid #3c3c3c;
+	background:#1c1c1c;
+	overflow:hidden;
+}
+#bottom_bar{
+	width:100%;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/bottombar.png) top left repeat-x;
+}
+#bottom_bar ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	width:200px;
+	float:right;
+}
+#bottom_bar ul li{
+	float:left;
+	width:30px;
+	height:30px;
+	margin-top:5px;
+	margin-left:5px;
+	line-height:30px;
+	cursor:pointer;
+}
+#bottom_bar .active{
+	font-size:15px;
+	color:#dcdcdc;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:url(../images/button.png) top left no-repeat;
+}
+#bottom_bar .inactive{
+	font-size:15px;
+	color:#6c6c6c;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:url(../images/button_alt.png) top left no-repeat;
+}
+#container{
+	text-align:left;
+	height:345px;
+	width:590px;
+	margin:5px auto;
+	padding:0px;
+	background:#3c3c3c;
+	position:relative;
+	overflow:hidden;
+}
+#container ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	height:345px;
+	width:590px;
+	overflow:hidden;
+	}
+#container ul li,#container ul li img{
+	padding:0px;
+	margin:0px;
+	height:345px;
+	width:590px;
+	overflow:hidden;
+}
+
+
+
+#wrapper2{
+	width:600px;
+	height:395px;
+	margin:0px auto 10px auto;
+	border:1px solid #3c3c3c;
+	background:#1c1c1c;
+	overflow:hidden;
+}
+#bottom_bar2{
+	width:100%;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	background:url(../images/bottombar.png) top left repeat-x;
+}
+#bottom_bar2 ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	width:200px;
+	float:right;
+}
+#bottom_bar2 ul li{
+	float:left;
+	width:30px;
+	height:30px;
+	margin-top:5px;
+	margin-left:5px;
+	line-height:30px;
+	cursor:pointer;
+}
+#bottom_bar2 .active{
+	font-size:15px;
+	color:#dcdcdc;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:url(../images/button.png) top left no-repeat;
+}
+#bottom_bar2 .inactive{
+	font-size:15px;
+	color:#6c6c6c;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:url(../images/button_alt.png) top left no-repeat;
+}
+#container2{
+	text-align:left;
+	height:345px;
+	width:590px;
+	margin:5px auto;
+	padding:0px;
+	background:#1c1c1c;
+	position:relative;
+	overflow:hidden;
+}
+#container2 ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	height:345px;
+	width:590px;
+	overflow:hidden;
+	}
+#container2 ul li,#container2 ul li img{
+	padding:0px;
+	margin:0px;
+	height:345px;
+	width:590px;
+	overflow:hidden;
+}

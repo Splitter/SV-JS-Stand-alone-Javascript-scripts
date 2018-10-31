@@ -1,0 +1,239 @@
+
+body{
+	padding:0px;
+	margin:0px;
+	text-align:center;	
+	background:#fff url(../images/page2.png) top left repeat-x;
+}
+#toplinks ,#toplinks a{
+	color:#333333;
+	font-size:15px;
+	text-decoration:none;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#container{
+	text-align:left;
+	height:345px;
+	width:500px;
+	padding:0px;
+	position:relative;
+	overflow:hidden;
+	float:right;
+	background:url(../images/showbg.png) top left no-repeat;
+}
+#container ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#container ul li,#container ul li img{
+	padding:0px;
+	margin:0px;
+	height:345px;
+	width:500px;
+}
+#container ul li {
+	overflow:hidden;
+	}
+	
+#control_wrap{
+	width:260px;
+	height:345px;
+	float:left;
+}
+.control_inactive,.control_active{
+	width:260px;
+	height:69px;
+	background:url(../images/sidebarbg.png) top left no-repeat;
+	cursor:pointer;
+}
+.control_active{
+	background:url(../images/sidebarbg2.png) top left no-repeat;
+}
+.control_inactive h2,.control_active h2{
+	padding:16px 0px 0px 16px ;
+	margin:0px;
+	line-height:15px;
+	font-size:15px;
+	color:#146b93;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.control_active h2{
+	color:#3fa0cd;
+	font-size:17px;
+	}
+	
+.control_inactive p,.control_active p{
+	padding:0px ;
+	padding:6px 30px 0px 17px ;
+	margin:0px;
+	line-height:11px;
+	font-size:12px;
+	color:#8d8d8d;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.control_active p{
+	color:#5d5d5d;
+	}
+#slideshow_wrap{
+	height:345px;
+	width:700px;
+	margin:30px auto;
+	text-align:left;
+	border:1px solid #acacac;
+	overflow:hidden;
+}
+
+
+
+
+#container2{
+	text-align:left;
+	height:345px;
+	width:500px;
+	padding:0px;
+	position:relative;
+	overflow:hidden;
+	float:right;
+	background:url(../images/showbg.png) center center no-repeat;
+}
+#container2 ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#container2 ul li,#container ul li img{
+	padding:0px;
+	margin:0px;
+	height:345px;
+	width:500px;
+}
+#container2 ul li {
+	overflow:hidden;
+	}
+	
+#control_wrap2{
+	width:260px;
+	height:345px;
+	float:left;
+}
+.control_inactive,.control_active{
+	width:260px;
+	height:69px;
+	background:url(../images/sidebarbg.png) top left no-repeat;
+	cursor:pointer;
+}
+.control_active{
+	background:url(../images/sidebarbg2.png) top left no-repeat;
+}
+.control_inactive h2,.control_active h2{
+	padding:16px 0px 0px 16px ;
+	margin:0px;
+	line-height:15px;
+	font-size:15px;
+	color:#146b93;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.control_active h2{
+	color:#3fa0cd;
+	font-size:17px;
+	}
+	
+.control_inactive p,.control_active p{
+	padding:0px ;
+	padding:6px 30px 0px 17px ;
+	margin:0px;
+	line-height:11px;
+	font-size:12px;
+	color:#8d8d8d;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.control_active p{
+	color:#5d5d5d;
+	}
+#slideshow_wrap2{
+	height:345px;
+	width:700px;
+	margin:30px auto;
+	text-align:left;
+	border:1px solid #acacac;
+	overflow:hidden;
+}
+
+
+
+
+#container3{
+	text-align:left;
+	height:345px;
+	width:500px;
+	padding:0px;
+	position:relative;
+	overflow:hidden;
+	float:right;
+	background:url(../images/showbg.png) center center no-repeat;
+}
+#container3 ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#container3 ul li,#container ul li img{
+	padding:0px;
+	margin:0px;
+	height:345px;
+	width:500px;
+}
+#container3 ul li {
+	overflow:hidden;
+	}
+	
+#control_wrap3{
+	width:260px;
+	height:345px;
+	float:left;
+}
+.control_inactive,.control_active{
+	width:260px;
+	height:69px;
+	background:url(../images/sidebarbg.png) top left no-repeat;
+	cursor:pointer;
+}
+.control_active{
+	background:url(../images/sidebarbg2.png) top left no-repeat;
+}
+.control_inactive h2,.control_active h2{
+	padding:16px 0px 0px 16px ;
+	margin:0px;
+	line-height:15px;
+	font-size:15px;
+	color:#146b93;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.control_active h2{
+	color:#3fa0cd;
+	font-size:17px;
+	}
+	
+.control_inactive p,.control_active p{
+	padding:0px ;
+	padding:6px 30px 0px 17px ;
+	margin:0px;
+	line-height:11px;
+	font-size:12px;
+	color:#8d8d8d;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.control_active p{
+	color:#5d5d5d;
+	}
+#slideshow_wrap3{
+	height:345px;
+	width:700px;
+	margin:30px auto;
+	text-align:left;
+	border:1px solid #acacac;
+	overflow:hidden;
+}

@@ -1,0 +1,141 @@
+
+
+#slideshow_shadow{
+	height:275px;
+	width:600px;
+	margin:30px auto 0px auto;
+	padding:0px;
+	position:relative;
+	text-align:left;
+	overflow:hidden;
+	background:url(./images/bottom_slide.png) bottom center no-repeat;
+}
+#container{
+	text-align:left;
+	padding:0px;
+	background:#000;
+}
+#slideshow_wrap{
+	height:250px;
+	width:600px;
+	margin:0px auto 0px auto;
+	padding:0px;
+	position:relative;
+	text-align:left;
+	overflow:hidden;
+}
+#container ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#container ul li,#container ul li img,#container div, #container div img{
+	padding:0px;
+	margin:0px;
+	height:250px;
+	width:600px;
+}
+#container ul li {
+	overflow:hidden;
+	}
+	
+#control_wrap{
+	width:190px;
+	margin-left:30px;
+}
+.control_inactive,.control_active{
+	float:left;
+	margin:0px 14px 0px 0px;
+	border:1px solid #5c5c5c;
+	background:#fff;
+	width:20px;
+	height:10px;
+	cursor:pointer;	
+}
+.control_inactive{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: .5;
+    }
+.control_active{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1.0;
+}
+
+
+
+
+#container2{
+	border:1px solid #5c5c5c;
+	text-align:left;
+	padding:0px;
+	background:url(../images/showbg.png) top left no-repeat;
+}
+#slideshow_wrap2{
+	height:250px;
+	width:600px;
+	margin:30px auto 0px auto;
+	padding:0px;
+	position:relative;
+	text-align:left;
+	overflow:hidden;
+}
+#container2 ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#container2 ul li,#container2 ul li img{
+	padding:0px;
+	margin:0px;
+	height:250px;
+	width:600px;
+}
+#container2 ul li {
+	overflow:hidden;
+	}
+	
+#control_wrap2{
+	position:relative;	
+	width:190px;
+}
+
+
+
+
+
+#container3{
+	border:1px solid #5c5c5c;
+	text-align:left;
+	padding:0px;
+	background:url(../images/showbg.png) top left no-repeat;
+}
+#slideshow_wrap3{
+	height:250px;
+	width:600px;
+	margin:30px auto 0px auto;
+	padding:0px;
+	position:relative;
+	text-align:left;
+	overflow:hidden;
+}
+#container3 ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#container3 ul li,#container3 ul li img{
+	padding:0px;
+	margin:0px;
+	height:250px;
+	width:600px;
+}
+#container3 ul li {
+	overflow:hidden;
+	}
+	
+#control_wrap3{
+	position:relative;	
+	width:190px;
+}
